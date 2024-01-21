@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2023 The Android Open Source Project
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.pokedex"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="24"
+24        android:targetSdkVersion="33" />
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:19:5-67
+26-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:19:22-64
+27    <uses-permission android:name="android.permission.REORDER_TASKS" />
+27-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+27-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.pokedex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.pokedex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:20:5-39:19
+36        android:name="com.example.pokedex.PokedexApplication"
+36-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:21:9-43
+37        android:allowBackup="true"
+37-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:22:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.10.1] C:\Users\theoc\.gradle\caches\transforms-3\19944e199d579f1e3d58337221346465\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:23:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:24:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:25:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:26:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.MarsPhotos" >
+46-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:27:9-48
+47        <activity
+47-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:29:9-38:20
+48            android:name="com.example.pokedex.MainActivity"
+48-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:30:13-41
+49            android:exported="true"
+49-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:31:13-36
+50            android:label="@string/app_name"
+50-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:32:13-45
+51            android:theme="@style/Theme.MarsPhotos" >
+51-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:33:13-52
+52            <intent-filter>
+52-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:34:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:35:17-69
+53-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:35:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:17-77
+55-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[androidx.compose.ui:ui-tooling-android:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\3e8b97fcf9e72a1db5a41c3ac6dc4713\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.compose.ui.tooling.PreviewActivity"
+59-->[androidx.compose.ui:ui-tooling-android:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\3e8b97fcf9e72a1db5a41c3ac6dc4713\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-tooling-android:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\3e8b97fcf9e72a1db5a41c3ac6dc4713\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+61        <activity
+61-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+62            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+62-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+63            android:exported="true"
+63-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+64            android:theme="@style/WhiteBackgroundTheme" >
+64-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+65            <intent-filter android:priority="-100" >
+65-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+65-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:17-77
+66-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+70-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+71            android:exported="true"
+71-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+72            android:theme="@style/WhiteBackgroundTheme" >
+72-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+73            <intent-filter android:priority="-100" >
+73-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+73-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:17-77
+74-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+78-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+79            android:exported="true"
+79-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+80            android:theme="@style/WhiteBackgroundDialogTheme" >
+80-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+81            <intent-filter android:priority="-100" >
+81-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+81-->[androidx.test:core:1.5.0] C:\Users\theoc\.gradle\caches\transforms-3\91ce0c882c13a62a4be3834be3361a0d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:17-77
+82-->C:\Users\theoc\OneDrive\Bureau\programmation\pokedexApp\app\src\main\AndroidManifest.xml:36:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.example.pokedex.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\theoc\.gradle\caches\transforms-3\976b139ba541cc0bf8771f258fde19e8\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\theoc\.gradle\caches\transforms-3\14b077210c8ced75e5ea94e36876d54c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\theoc\.gradle\caches\transforms-3\14b077210c8ced75e5ea94e36876d54c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\theoc\.gradle\caches\transforms-3\14b077210c8ced75e5ea94e36876d54c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+98                android:value="androidx.startup" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+99        </provider>
+100
+101        <activity
+101-->[androidx.compose.ui:ui-test-manifest:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\71bcad3c48d6c0d5aea81e17af08c80d\transformed\ui-test-manifest-1.5.1\AndroidManifest.xml:23:9-25:39
+102            android:name="androidx.activity.ComponentActivity"
+102-->[androidx.compose.ui:ui-test-manifest:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\71bcad3c48d6c0d5aea81e17af08c80d\transformed\ui-test-manifest-1.5.1\AndroidManifest.xml:24:13-63
+103            android:exported="true" />
+103-->[androidx.compose.ui:ui-test-manifest:1.5.1] C:\Users\theoc\.gradle\caches\transforms-3\71bcad3c48d6c0d5aea81e17af08c80d\transformed\ui-test-manifest-1.5.1\AndroidManifest.xml:25:13-36
+104
+105        <receiver
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+107            android:directBootAware="false"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+108            android:enabled="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+109            android:exported="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+110            android:permission="android.permission.DUMP" >
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\theoc\.gradle\caches\transforms-3\594d00532801daa79608f044d2df02e3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+122            </intent-filter>
+123        </receiver>
+124    </application>
+125
+126</manifest>
